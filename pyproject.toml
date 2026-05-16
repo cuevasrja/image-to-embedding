@@ -1,0 +1,13 @@
+[project]
+name = "image-to-embedding"
+version = "0.1.0"
+description = "Convert images to 512-d embeddings with ResNet18 and store them in PostgreSQL via pgvector"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pgvector>=0.4.2",
+    "pillow>=12.2.0",
+    "psycopg2-binary>=2.9.12",
+    "torch>=2.12.0",
+    "torchvision>=0.27.0",
+]
